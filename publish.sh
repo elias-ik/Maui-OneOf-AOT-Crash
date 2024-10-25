@@ -1,6 +1,6 @@
 #!/bin/bash
 echo on
-rm -rf MauiApp3/bin/
+sudo rm -rf MauiApp3/bin/
 sudo dotnet workload restore
 echo "Compiling Application"
 cd MauiApp3
